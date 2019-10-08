@@ -4,7 +4,7 @@
 int arith()
 {
  int a,b,c,n;
- clrscr();
+
  printf("ARITHMATIC OPERATIONS MENU\n");
  printf("WHAT OPERATION DO YOU WANT TO PERFORM?\n");
  printf("FOR ADDITION PRESS 1\n");
@@ -39,7 +39,7 @@ int arith()
 	  break;
  default:
       printf("WRONG INPUT\n");
-      break;
+      
  }
  return 0;
 }
